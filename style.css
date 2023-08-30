@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    color: rgb(43, 68, 88);
+    font-size: 17px;
+    line-height: 1.6;
+    
+}
+#showcase
+{
+    background-image:url(back_pic.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 20px;
+    text-align: center;
+}
+#showcase h1{
+      font-size: 50px;
+    
+}
+#showcase p{
+    font-size: 20px;
+}
+#showcase .button
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(43, 68, 88);
+    border: rgb(43, 68, 88) 1px solid;
+    padding:10px 20px;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+#showcase .button:hover
+{
+    background-color:rgb(43, 68, 88);
+    color: white;
+}
+#section-a
+{
+    padding: 20px;
+    background-color: rgb(67, 180, 156);
+    color: white;
+    text-align: center;
+}
+#section-b
+{
+    padding: 20px;
+    
+    color::rgb(43, 68, 88);
+    text-align: center;
+}
+#section-c div
+{
+    padding: 20px;
+}
+#section-c
+{
+    display: flex;
+}
+#section-c .box1,#section-c .box3
+{
+    background-color:burlywood;
+}
